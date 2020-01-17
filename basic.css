@@ -1,0 +1,30 @@
+body { 
+    display: block;
+    vertical-align: middle;
+    position: center;
+    padding: 0% 10%;
+}
+
+.container {
+  width: 50%;
+  height: 40%;
+  margin: 0px auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container h2, p {
+    -webkit-text-stroke-width: 0.5rem;
+    -webkit-text-stroke: black;
+}
+
+#backgroundImage { 
+    height: 40%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
